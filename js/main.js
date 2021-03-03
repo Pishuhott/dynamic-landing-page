@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             min = today.getMinutes(),
             sec = today.getSeconds();
 
-        time.innerHTML = `${hour}<span>:</span>${addZero(min)}<span>:</span>${addZero(sec)}`;
+        time.innerHTML = `${hour}:${addZero(min)}:${addZero(sec)}`;
 
         setTimeout(showTime, 1000);
     };
