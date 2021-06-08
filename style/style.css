@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+}
+
+#time {
+    font-size: 8em;
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    font-size: 2.5em;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 2.0em;
+    opacity: 0.6;
+}
+
+@media(max-width: 768px) {
+    #time {
+        font-size: 6em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+}
