@@ -5,4 +5,4 @@
 
 **Description**
 
-Landing, showing the time, user name and his tasks for the current day. The background image changes depending on the time of day (morning, day, evening). The application uses local storage for data storage. A button has been implemented to switch between 12/24 hour formats.
+Landing page showing the time, username and tasks for the current day. The background image changes depending on the time of day. The app uses local storage to store data.
